@@ -1,0 +1,188 @@
+@font-face {
+    font-family: Mulish;
+    src: url(../fonts/static/Mulish-Regular.ttf)
+}
+
+.mulish-modifier {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    font-family: Mulish;
+    margin: 0px;
+}
+
+header{
+    position: relative;
+    height: 700px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url('../images/delorean-palm-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+section{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+footer{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: rgb(245, 245, 245);
+}
+
+#menu_bar{
+    display: flex;
+    align-items: center;
+    color: rgb(247,247,247);
+}
+#menu_bar_titel{
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 72px;
+    width: 40%;
+}
+#menu_bar_link_container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+    width: 60%;
+}
+.menu_bar_link {
+    display: inline-block;
+    color: rgb(247,247,247);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+}
+.menu_bar_link:hover {
+    text-decoration: underline; /* Unterstrich hinzufügen, wenn über den Link gehovert wird */
+}
+#titel-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    height: 200px;
+}
+#titel{
+    height: 100%;
+    width: 80%;
+}
+#new_text{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+}
+#zeitmaschinenauto_text{
+    margin-top: 18px;
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(247,247,247);
+}
+
+#entdecken_text{
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: rgb(247,247,247);
+    text-decoration: none;
+}
+#entdecken_text:hover{
+    text-decoration: underline;
+}
+#infocard{
+    display: flex;
+    position: absolute;
+    background-color: rgb(53,53,53);
+    width: 64%;
+    bottom: 0;
+    right: 0;
+}
+
+.infocard_icon{
+    width: 45px;
+    height: 45px;
+}
+.infocard_content{
+    display: flex;
+    padding: 3%;
+    font-size: 16px;
+    font-weight: normal;
+    position: relative;
+}
+.infocard_text{
+    margin-left: 24px;
+}
+.infocard_heading{
+    color: rgb(247,247,247);
+    margin-bottom: 24px;
+}
+.infocard_paragraph{
+    color: rgb(187,187,187);
+    line-height: 24px;
+}
+
+.infocard_content:not(:last-child)::after {
+    content: "";
+    width: 1px; 
+    height: 100%;
+    background-color: rgba(255,255,255,0.08); 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+}
+.section_element{
+    padding-left: 50px;
+}
+.section_icon{
+    width: 32px;
+    height: 32px;
+
+}
+.section_heading{
+    color: rgb(51,51,51);
+}
+.section_text{
+    color: rgb(153, 153, 153);
+    line-height: 30px;
+}
+
+#footer_container{
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.footer_heading{
+    padding: 0;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(68,68,68);
+    margin-bottom: 30px;
+}
+.footer_link{
+    display: block;
+    font-size: 16px;
+    color: rgb(100,109,117);
+    text-decoration: none;
+}
+.footer_link:hover{
+    text-decoration: underline;
+}
+
