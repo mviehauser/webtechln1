@@ -2,6 +2,40 @@
     font-family: Mulish;
     src: url(../fonts/static/Mulish-Regular.ttf)
 }
+@media (max-width: 950px) {
+    div#menu_bar_titel{
+        margin-left: 0px;
+    }
+    p.infocard_paragraph{
+        display: none;
+    }
+    section{
+        width: 700px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+@media (max-width: 750px){
+    div#menu_bar{
+        background-color: rgb(53,53,53);
+    }
+    div#menu_bar_titel{
+        margin-bottom: 20px;
+    }
+    div#menu_bar_link_container{
+        margin-bottom: 20px;
+    }
+    div#infocard{
+        visibility: hidden;
+    }
+    section{
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+    }
+}
+
 
 .mulish-modifier {
   font-family: "Mulish", sans-serif;
@@ -24,7 +58,7 @@ header{
     background-position: top;
 }
 
-section{
+#mySection{
     margin-left: 10%;
     margin-right: 10%;
     margin-top: 48px;
@@ -51,7 +85,7 @@ footer{
     font-size: 24px;
     font-weight: bolder;
     margin-left: 72px;
-    width: 40%;
+    width: 50%;
 }
 #menu_bar_link_container{
     margin-top: 20px;
@@ -59,7 +93,7 @@ footer{
     justify-content: space-around;
     color: white;
     text-decoration: none;
-    width: 60%;
+    width: 50%;
 }
 .menu_bar_link {
     display: inline-block;
@@ -119,6 +153,7 @@ footer{
 }
 .infocard_content{
     display: flex;
+    width: 50%;
     padding: 3%;
     font-size: 16px;
     font-weight: normal;
@@ -145,6 +180,10 @@ footer{
     top: 0; 
     right: 0; 
 }
+#mySection{
+    width:80%; 
+    height: auto;
+}
 .section_element{
     padding-left: 50px;
 }
@@ -154,9 +193,13 @@ footer{
 
 }
 .section_heading{
+    font-size: 18px;
     color: rgb(51,51,51);
+    margin-top: 16px;
+    font-weight: bolder;
 }
 .section_text{
+    margin-top: 8px;
     color: rgb(153, 153, 153);
     line-height: 30px;
 }
@@ -164,9 +207,8 @@ footer{
 #footer_container{
     padding: 0px;
     display: flex;
-    justify-content: space-between;
-    margin-left: 20%;
-    margin-right: 20%;
+    justify-content: space-around;
+
 }
 .footer_heading{
     padding: 0;
