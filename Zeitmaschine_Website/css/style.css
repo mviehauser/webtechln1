@@ -103,7 +103,7 @@ footer{
     font-weight: bold;
 }
 .menu_bar_link:hover {
-    text-decoration: underline; /* Unterstrich hinzufügen, wenn über den Link gehovert wird */
+    text-decoration: underline; 
 }
 #titel-container{
     display: flex;
